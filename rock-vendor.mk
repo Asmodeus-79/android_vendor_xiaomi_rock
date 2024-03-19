@@ -3596,11 +3596,9 @@ PRODUCT_PACKAGES += \
     IFAAService \
     ImageCollection \
     InProcessTetheringResOverlay \
-    MipayService \
     NetworkStackInProcessResOverlay \
     NetworkStackResOverlay \
     SensorTestTool \
-    SoterService \
     TetheringResOverlay \
     GpuGameDriver.mt6789 \
     com.fingerprints.extension \
