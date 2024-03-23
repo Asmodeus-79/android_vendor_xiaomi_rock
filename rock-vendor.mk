@@ -65,16 +65,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rock/proprietary/lib64/vendor.xiaomi.hardware.displayfeature@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.xiaomi.hardware.displayfeature@1.0.so \
     vendor/xiaomi/rock/proprietary/lib64/vendor.xiaomi.hardware.fingerprintextension@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.xiaomi.hardware.fingerprintextension@1.0.so \
     vendor/xiaomi/rock/proprietary/lib64/vendor.xiaomi.hardware.micharge@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.xiaomi.hardware.micharge@1.0.so \
-    vendor/xiaomi/rock/proprietary/odm/etc/build_rock.prop:$(TARGET_COPY_OUT_ODM)/etc/build_rock.prop \
-    vendor/xiaomi/rock/proprietary/odm/etc/build_rock_p.prop:$(TARGET_COPY_OUT_ODM)/etc/build_rock_p.prop \
-    vendor/xiaomi/rock/proprietary/odm/etc/build_stone_p.prop:$(TARGET_COPY_OUT_ODM)/etc/build_stone_p.prop \
-    vendor/xiaomi/rock/proprietary/odm/etc/init/stone_p/android.hardware.nfc@1.2-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/stone_p/android.hardware.nfc@1.2-service.rc \
-    vendor/xiaomi/rock/proprietary/odm/etc/init/stone_p/android.hardware.secure_element@1.2-service-mediatek.rc:$(TARGET_COPY_OUT_ODM)/etc/init/stone_p/android.hardware.secure_element@1.2-service-mediatek.rc \
-    vendor/xiaomi/rock/proprietary/odm/etc/vintf/manifest_dsds.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest_dsds.xml \
-    vendor/xiaomi/rock/proprietary/odm/etc/vintf/manifest_qsqs.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest_qsqs.xml \
-    vendor/xiaomi/rock/proprietary/odm/etc/vintf/manifest_ss.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest_ss.xml \
-    vendor/xiaomi/rock/proprietary/odm/etc/vintf/manifest_stone_p.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest_stone_p.xml \
-    vendor/xiaomi/rock/proprietary/odm/etc/vintf/manifest_tsts.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest_tsts.xml \
     vendor/xiaomi/rock/proprietary/system/lib64/libmtk_vt_service.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmtk_vt_service.so \
     vendor/xiaomi/rock/proprietary/system_ext/etc/a2dp_audio_policy_configuration.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/a2dp_audio_policy_configuration.xml \
     vendor/xiaomi/rock/proprietary/system_ext/etc/a2dp_in_audio_policy_configuration.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/a2dp_in_audio_policy_configuration.xml \
