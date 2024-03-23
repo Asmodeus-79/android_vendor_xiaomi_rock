@@ -906,7 +906,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rock/proprietary/vendor/etc/mtk_platform_codecs_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mtk_platform_codecs_config.xml \
     vendor/xiaomi/rock/proprietary/vendor/etc/mtk_vext_info:$(TARGET_COPY_OUT_VENDOR)/etc/mtk_vext_info \
     vendor/xiaomi/rock/proprietary/vendor/etc/nnapi_powerhal.json:$(TARGET_COPY_OUT_VENDOR)/etc/nnapi_powerhal.json \
-    vendor/xiaomi/rock/proprietary/vendor/etc/partition_perrockon.sh:$(TARGET_COPY_OUT_VENDOR)/etc/partition_perrockon.sh \
+    vendor/xiaomi/rock/proprietary/vendor/etc/partition_permission.sh:$(TARGET_COPY_OUT_VENDOR)/etc/partition_permission.sh \
     vendor/xiaomi/rock/proprietary/vendor/etc/power_app_cfg.xml:$(TARGET_COPY_OUT_VENDOR)/etc/power_app_cfg.xml \
     vendor/xiaomi/rock/proprietary/vendor/etc/powercontable.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powercontable.xml \
     vendor/xiaomi/rock/proprietary/vendor/etc/powerscntbl.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powerscntbl.xml \
@@ -1166,7 +1166,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rock/proprietary/vendor/lib/egl/libMEOW_qt.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libMEOW_qt.so \
     vendor/xiaomi/rock/proprietary/vendor/lib/egl/libMEOW_trace.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libMEOW_trace.so \
     vendor/xiaomi/rock/proprietary/vendor/lib/egl/mt6789/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/mt6789/libGLES_mali.so \
-    vendor/xiaomi/rock/proprietary/vendor/lib/framework-perrockon-aidl-cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/framework-perrockon-aidl-cpp.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/framework-permission-aidl-cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/framework-permission-aidl-cpp.so \
     vendor/xiaomi/rock/proprietary/vendor/lib/gc02m1_aac_macro_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/gc02m1_aac_macro_mipi_raw_IdxMgr.so \
     vendor/xiaomi/rock/proprietary/vendor/lib/gc02m1_aac_macro_mipi_raw_india_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/gc02m1_aac_macro_mipi_raw_india_IdxMgr.so \
     vendor/xiaomi/rock/proprietary/vendor/lib/gc02m1_aac_macro_mipi_raw_india_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/gc02m1_aac_macro_mipi_raw_india_tuning.so \
@@ -2151,7 +2151,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rock/proprietary/vendor/lib64/egl/mt6789/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/mt6789/libGLES_mali.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/ese_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/ese_client.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/ese_spi_nxp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/ese_spi_nxp.so \
-    vendor/xiaomi/rock/proprietary/vendor/lib64/framework-perrockon-aidl-cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/framework-perrockon-aidl-cpp.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib64/framework-permission-aidl-cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/framework-permission-aidl-cpp.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/gc02m1_aac_macro_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/gc02m1_aac_macro_mipi_raw_IdxMgr.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/gc02m1_aac_macro_mipi_raw_india_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/gc02m1_aac_macro_mipi_raw_india_IdxMgr.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/gc02m1_aac_macro_mipi_raw_india_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/gc02m1_aac_macro_mipi_raw_india_tuning.so \
@@ -3550,13 +3550,13 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rock/proprietary/vendor/odm/etc/build_stone_p.prop:$(TARGET_COPY_OUT_ODM)/odm/etc/build_stone_p.prop \
     vendor/xiaomi/rock/proprietary/vendor/odm/etc/init/stone_p/android.hardware.nfc@1.2-service.rc:$(TARGET_COPY_OUT_ODM)/odm/etc/init/stone_p/android.hardware.nfc@1.2-service.rc \
     vendor/xiaomi/rock/proprietary/vendor/odm/etc/init/stone_p/android.hardware.secure_element@1.2-service-mediatek.rc:$(TARGET_COPY_OUT_ODM)/odm/etc/init/stone_p/android.hardware.secure_element@1.2-service-mediatek.rc \
-    vendor/xiaomi/rock/proprietary/vendor/odm/etc/perrockons/sku_stone_p/android.hardware.nfc.hce.xml:$(TARGET_COPY_OUT_ODM)/odm/etc/perrockons/sku_stone_p/android.hardware.nfc.hce.xml \
-    vendor/xiaomi/rock/proprietary/vendor/odm/etc/perrockons/sku_stone_p/android.hardware.nfc.hcef.xml:$(TARGET_COPY_OUT_ODM)/odm/etc/perrockons/sku_stone_p/android.hardware.nfc.hcef.xml \
-    vendor/xiaomi/rock/proprietary/vendor/odm/etc/perrockons/sku_stone_p/android.hardware.nfc.uicc.xml:$(TARGET_COPY_OUT_ODM)/odm/etc/perrockons/sku_stone_p/android.hardware.nfc.uicc.xml \
-    vendor/xiaomi/rock/proprietary/vendor/odm/etc/perrockons/sku_stone_p/android.hardware.nfc.xml:$(TARGET_COPY_OUT_ODM)/odm/etc/perrockons/sku_stone_p/android.hardware.nfc.xml \
-    vendor/xiaomi/rock/proprietary/vendor/odm/etc/perrockons/sku_stone_p/android.hardware.se.omapi.uicc.xml:$(TARGET_COPY_OUT_ODM)/odm/etc/perrockons/sku_stone_p/android.hardware.se.omapi.uicc.xml \
-    vendor/xiaomi/rock/proprietary/vendor/odm/etc/perrockons/sku_stone_p/com.nxp.mifare.xml:$(TARGET_COPY_OUT_ODM)/odm/etc/perrockons/sku_stone_p/com.nxp.mifare.xml \
-    vendor/xiaomi/rock/proprietary/vendor/odm/etc/perrockons/sku_stone_p/com.nxp.nfc.xml:$(TARGET_COPY_OUT_ODM)/odm/etc/perrockons/sku_stone_p/com.nxp.nfc.xml \
+    vendor/xiaomi/rock/proprietary/vendor/odm/etc/permissions/sku_stone_p/android.hardware.nfc.hce.xml:$(TARGET_COPY_OUT_ODM)/odm/etc/permissions/sku_stone_p/android.hardware.nfc.hce.xml \
+    vendor/xiaomi/rock/proprietary/vendor/odm/etc/permissions/sku_stone_p/android.hardware.nfc.hcef.xml:$(TARGET_COPY_OUT_ODM)/odm/etc/permissions/sku_stone_p/android.hardware.nfc.hcef.xml \
+    vendor/xiaomi/rock/proprietary/vendor/odm/etc/permissions/sku_stone_p/android.hardware.nfc.uicc.xml:$(TARGET_COPY_OUT_ODM)/odm/etc/permissions/sku_stone_p/android.hardware.nfc.uicc.xml \
+    vendor/xiaomi/rock/proprietary/vendor/odm/etc/permissions/sku_stone_p/android.hardware.nfc.xml:$(TARGET_COPY_OUT_ODM)/odm/etc/permissions/sku_stone_p/android.hardware.nfc.xml \
+    vendor/xiaomi/rock/proprietary/vendor/odm/etc/permissions/sku_stone_p/android.hardware.se.omapi.uicc.xml:$(TARGET_COPY_OUT_ODM)/odm/etc/permissions/sku_stone_p/android.hardware.se.omapi.uicc.xml \
+    vendor/xiaomi/rock/proprietary/vendor/odm/etc/permissions/sku_stone_p/com.nxp.mifare.xml:$(TARGET_COPY_OUT_ODM)/odm/etc/permissions/sku_stone_p/com.nxp.mifare.xml \
+    vendor/xiaomi/rock/proprietary/vendor/odm/etc/permissions/sku_stone_p/com.nxp.nfc.xml:$(TARGET_COPY_OUT_ODM)/odm/etc/permissions/sku_stone_p/com.nxp.nfc.xml \
     vendor/xiaomi/rock/proprietary/vendor/odm/etc/vintf/manifest_dsds.xml:$(TARGET_COPY_OUT_ODM)/odm/etc/vintf/manifest_dsds.xml \
     vendor/xiaomi/rock/proprietary/vendor/odm/etc/vintf/manifest_qsqs.xml:$(TARGET_COPY_OUT_ODM)/odm/etc/vintf/manifest_qsqs.xml \
     vendor/xiaomi/rock/proprietary/vendor/odm/etc/vintf/manifest_ss.xml:$(TARGET_COPY_OUT_ODM)/odm/etc/vintf/manifest_ss.xml \
