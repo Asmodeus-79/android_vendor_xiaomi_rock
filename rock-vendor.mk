@@ -3186,6 +3186,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rock/proprietary/vendor/lib64/libwvkeyboxext.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwvkeyboxext.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/libxml2_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxml2_vendor.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/libz_stable.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libz_stable.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib64/hw/android.hardware.boot@1.0-impl-1.1-mtkimpl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.boot@1.0-impl-1.1-mtkimpl.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib64/hw/android.hardware.boot@1.0-impl-1.2-mtkimpl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.boot@1.0-impl-1.2-mtkimpl.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/mediacas/libclearkeycasplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mediacas/libclearkeycasplugin.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/mediadrm/libdrmclearkeyplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mediadrm/libdrmclearkeyplugin.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/mediadrm/libmockdrmcryptoplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mediadrm/libmockdrmcryptoplugin.so \
